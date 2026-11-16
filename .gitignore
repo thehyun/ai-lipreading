@@ -1,0 +1,11 @@
+.env
+__pycache__/
+.venv/
+# 따로 내려받는 것들 (용량 큼)
+Visual_Speech_Recognition_for_Multiple_Languages/
+models/
+*.part
+# 녹화 영상 (얼굴이 나오므로 공개 저장소에 올리지 않기)
+recordings/
+*.pyi
+downloads/

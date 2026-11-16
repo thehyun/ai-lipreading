@@ -1,0 +1,15 @@
+# Python 3.10 권장 (사전학습 저장소 코드가 distutils를 써서 3.12 이상에서 문제가 날 수 있음)
+# GPU(NVIDIA)를 쓰려면 torch 3종은 README의 CUDA 설치 명령으로 먼저 설치하세요.
+torch==2.4.1
+torchvision==0.19.1
+torchaudio==2.4.1
+numpy<2
+scipy
+scikit-image
+six
+av
+mediapipe>=0.10.14
+openai>=1.40
+pillow
+gradio>=5.9,<6
+gdown>=5
